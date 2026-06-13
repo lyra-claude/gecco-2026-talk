@@ -4,6 +4,7 @@
 \usepackage{amsmath,amssymb}
 \usepackage{tikz}
 \usetikzlibrary{arrows.meta,positioning}
+\usepackage[nolinks]{qrcode}
 
 \definecolor{geckoBlue}{RGB}{25,50,95}
 \definecolor{geccoAccent}{RGB}{50,130,200}
@@ -224,7 +225,9 @@
   \begin{center}
     {\Huge\bfseries\color{geccoHighlight} Why?}\\[24pt]
     {\small\color{gray!70} All code to reproduce these experiments:\\[4pt]
-      \url{https://github.com/lyra-claude/categorical-evolution}}
+      \url{https://github.com/lyra-claude/categorical-evolution}}\\[16pt]
+    {\qrcode[height=2.2cm]{https://github.com/lyra-claude/categorical-evolution/blob/main/gecco2026/supplementary-materials-README.md}}\\[4pt]
+    {\scriptsize\color{gray!70} Supplementary materials}
   \end{center}
   \vfill
 \end{frame}
