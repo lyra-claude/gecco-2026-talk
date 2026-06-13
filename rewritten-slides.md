@@ -12,7 +12,7 @@ If you walk out remembering one image, let it be this one. Topology determines d
 
 1. **OneMax** — count the 1s in a bit string and push that count up. One smooth hill, no traps. It's the honest baseline: if the effect shows up even here, it isn't a side-effect of difficulty.
 
-2. **Maze** — thread a path through a grid from start to goal, the genome spelling out a sequence of moves. Deceptive by design — being near the answer in Hamming distance says nothing about being near a good route.
+2. **Maze** — not *solving* a maze, *breeding* one. The genome is a perfect maze: a spanning tree over a grid graph, so every cell reaches every other by exactly one path, with no loops and no walled-off regions. Mutation is an edge-swap — drop one edge from the tree, splice in a non-tree edge that stitches the two halves back into a single tree. Crossover is union crossover — pool both parents' edges and carve a fresh spanning tree out of that pool with Kruskal's. Fitness rewards difficulty: long winding solution paths, high tortuosity, a healthy ratio of dead ends. Deceptive by design — two mazes can sit close in Hamming distance and still play nothing alike.
 
 3. **Graph Coloring** — color the vertices so no edge connects two of the same color. NP-hard, with a rugged landscape full of plateaus where progress just stops.
 
@@ -46,7 +46,7 @@ Then the **two-way ANOVA**, which splits the variance in final diversity into it
 
 # Slide 6: The End
 
-*[Transition slide — no notes. A fine place to lose anyone who only came for the result. What follows is how we found it.]*
+We've covered the main result — so if that's what you came for, this is a fine place to tune out. Everything from here on is optional: it's the story of how we actually found it.
 
 # Slide 7: Kleisli Arrows
 
