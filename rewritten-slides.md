@@ -6,7 +6,7 @@ So why hang an entire talk on that one number? Because diversity is the tension 
 
 # Slide 1: Multi-Domain Topology Ordering
 
-If you walk out remembering one image, let it be this one. Topology determines diversity. We ran six domains with nothing in common — counting bits, escaping mazes, NP-hard constraint satisfaction, a strategic card game, co-evolved checkers players — and the very same ordering came back every time. Isolated islands hold onto the most diversity; fully connected islands hold onto the least. Read the bars left to right and they march downward in one fixed order: None, Ring, Star, Random, Fully Connected. Kendall's W is exactly 1.0 — total agreement, not one domain stepping out of line. The single setting most people choose on the first afternoon and never look at again ends up mattering more than the problem they spent months picking.
+If you walk out remembering one image, let it be this one. Topology determines diversity. We ran six domains with nothing in common — counting bits, breeding mazes, NP-hard constraint satisfaction, a strategic card game, co-evolved checkers players — and the very same ordering came back every time. Isolated islands hold onto the most diversity; fully connected islands hold onto the least. Read the bars left to right and they march downward in one fixed order: None, Ring, Star, Random, Fully Connected. Kendall's W is exactly 1.0 — total agreement, not one domain stepping out of line. The single setting most people choose on the first afternoon and never look at again ends up mattering more than the problem they spent months picking.
 
 # Slide 2: The Domains
 
